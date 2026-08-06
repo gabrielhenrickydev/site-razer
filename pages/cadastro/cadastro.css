@@ -12,9 +12,18 @@ nav {
 
 main {
     display: flex;
-    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 12px;
+    width: 40vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+input {
+    height: 20px
 }
 
 a {
@@ -23,17 +32,24 @@ a {
 }
 
 body {
-     background-image: url('../../imagens/background.png');
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(114, 114, 114);
-    width: 50vh;
+}
+
+* {
+    color: black;
+}
+
+header {
+    text-align: center;
 }

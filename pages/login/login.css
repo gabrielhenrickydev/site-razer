@@ -15,10 +15,7 @@ img {
 
 body {
     margin: 0;
-    background-image: url('../../imagens/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: lightgreen;
 }
 
 main {
@@ -31,7 +28,7 @@ main {
 }
 
 section {
-    background-color: rgb(22, 22, 22);
+    background-color: black;
     width: 67vh;
     height: 49vh;
     display: flex;
@@ -50,20 +47,25 @@ form {
 }
 
 input {
-    background-color: lightgrey;
-    
+    background-color: white;
     margin: 11px;
     width: 60vh;
     height: 40px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 a {
     margin: 2px;
-    color: black;
+    color: white;
 }
 
 button {
     margin: 4px;
     background-color: rgb(21, 255, 0);
+    color: black;
+}
+
+button a {
+    color: black;
 }

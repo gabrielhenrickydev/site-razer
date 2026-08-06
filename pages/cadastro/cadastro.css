@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 198vh;
+    height: 40px;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+     background-image: url('../../imagens/background.png');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 114, 114);
+    width: 50vh;
+}
